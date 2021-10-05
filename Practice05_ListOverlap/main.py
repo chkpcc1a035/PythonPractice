@@ -8,8 +8,8 @@ def ListOverLap():
     ranList01 = range(1, random.randint(1, 50))
     ranList02 = range(1, random.randint(1, 50))
 
-    print("Total leng of List 01 :" + str(ranList01))
-    print("Total leng of List 02 :" + str(ranList02))
+    print("Total length of List 01 :" + str(ranList01))
+    print("Total length of List 02 :" + str(ranList02))
     for elem in ranList01:
         if elem in ranList02:
             print(elem)
